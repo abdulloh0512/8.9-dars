@@ -1,9 +1,4 @@
-import React from "react";
-import { useNavigate } from "react-router-dom";
-
 const Sidebar = () => {
-  const navigate = useNavigate();
-
   return (
     <aside
       id="logo-sidebar"
