@@ -65,7 +65,6 @@ import {
       const provider = new GoogleAuthProvider();
       try {
         const result = await signInWithPopup(auth, provider);
-        const user = result.user;
         const token = await result.user.getIdToken();
         localStorage.setItem("token", token);
         navigate("/dashboard");
