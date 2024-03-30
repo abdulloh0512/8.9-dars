@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 const navigation = [
   { name: "HOME", href: "/" },
   { name: "ABOUT", href: "#" },
-  { name: "LIBRARY", href: "/signup" },
+  { name: "LIBRARY", href: "/login" },
 ];
 
 export default function Landing() {
