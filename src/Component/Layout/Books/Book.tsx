@@ -75,7 +75,7 @@ export default function Book() {
               <MdModeEdit className="size-6 ml-5 cursor-pointer" />
 
               <MdDelete
-                onClick={() => handleDelete(e.id)}
+                onClick={e => handleDelete(e)}
                 className="size-7 ml-2 cursor-pointer"
               />
             </li>
