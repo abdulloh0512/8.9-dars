@@ -4,9 +4,9 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { useNavigate } from "react-router-dom";
 
 const navigation = [
-  { name: "HOME", href: "#" },
+  { name: "HOME", href: "/" },
   { name: "ABOUT", href: "#" },
-  { name: "CONTACT", href: "#" },
+  { name: "LIBRARY", href: "/signup" },
 ];
 
 export default function Landing() {

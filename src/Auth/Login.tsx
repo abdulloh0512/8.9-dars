@@ -46,7 +46,7 @@ function Login() {
       const { user } = await signInWithEmailAndPassword(auth, email, password);
       const token = await user.getIdToken();
       localStorage.setItem("token", token);
-      navigate("/");
+      navigate("/library");
       alert("You have successful log in.");
       setLoader(false);
     } catch (err: any) {
@@ -61,7 +61,7 @@ function Login() {
       const result = await signInWithPopup(auth, provider);
       const token = await result.user.getIdToken();
       localStorage.setItem("token", token);
-      navigate("/");
+      navigate("/library");
       alert("You have successful log in.");
       setLoader(false);
     } catch (error: any) {

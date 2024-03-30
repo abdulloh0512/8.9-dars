@@ -1,4 +1,3 @@
-
 import Sidebar from "../Component/Layout/Sidebar/Sidebar";
 import Header from "../Component/Layout/Header/Header";
 import { Navigate, Outlet } from "react-router-dom";
